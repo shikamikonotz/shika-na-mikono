@@ -1,0 +1,87 @@
+\ifx\pdfoutput\undefined
+	% using latex
+	\documentclass[10pt,a4paper]{report}
+	\usepackage[dvips]{graphicx}
+\else
+	% using pdflatex
+	\documentclass[pdftex,10pt,a4paper]{report}
+	\usepackage[pdftex]{graphicx}
+	\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+	\usepackage{hyperref}
+	\hypersetup{
+  		colorlinks,%
+  		linkcolor=blue,%
+  		urlcolor=cyan
+	}
+\fi
+
+\usepackage{shika}
+
+\begin{document}
+
+% "Part 0" = Front matter
+
+\input{./tex/title.tex}
+
+% make page numbers consistent w/ the numbering in the PDF viewer.
+% (e.g. page 35 is actually page 35 in the .pdf)
+\setcounter{page}{2} 
+
+\input{./tex/about-this-book.tex}
+\input{./tex/teaching-philosophy.tex}
+
+\tableofcontents
+% don't show the page number on the table of contents
+\thispagestyle{empty}
+
+% Part 1 - Lab Development
+\input{./tex/part1.tex}
+\input{./tex/starting-school-labs.tex}
+\input{./tex/technical-lab-needs.tex}
+\input{./tex/sources-of-equipment.tex}
+\input{./tex/sources-of-chemicals.tex}
+\input{./tex/improving-existing-labs.tex}
+\input{./tex/testing-voltmeters.tex}
+\input{./tex/burette-repair.tex}
+\input{./tex/identifying-unknown-chemicals.tex}
+\input{./tex/qualitative-analysis.tex}
+
+% Part 2 - Lab Management
+\input{./tex/part2.tex}
+\input{./tex/laboratory-safety.tex}
+\input{./tex/dangerous-chemicals.tex}
+\input{./tex/dangerous-techniques.tex}
+\input{./tex/lab-classroom-management.tex}
+\input{./tex/routine-upkeep.tex}
+\input{./tex/waste-disposal.tex}
+\input{./tex/recycling-silver-nitrate.tex}
+\input{./tex/recycling-organic-waste.tex}
+\input{./tex/industrial-ecology.tex}
+
+% Part 3 - Lab Techniques
+\input{./tex/part3.tex}
+%\input{./tex/using-a-beam-balance.tex}
+%\input{./tex/using-a-plastic-syringe.tex}
+%\input{./tex/measures-of-concentration.tex}
+%\input{./tex/calculating-bottle-molarity.tex}
+%\input{./tex/preparation-of-solutions.tex}
+%\input{./tex/volumetric-analysis-theory.tex}
+%\input{./tex/indicators.tex}
+%\input{./tex/volumetric-analysis-technique.tex}
+%\input{./tex/volumetric-analysis-without-burettes.tex}
+%\input{./tex/relative-standardization.tex}
+%\input{./tex/preparation-of-solutions-without-balanace.tex}
+%\input{./tex/substituting-chemicals.tex}
+%\input{./tex/preservation-of-specimens.tex}
+%\input{./tex/dissection.tex}
+%\input{./tex/culture-media.tex}
+%\input{./tex/using-a-microscope.tex}
+%\input{./tex/low-power-microscope.tex}
+
+% Part 4 - Hands-On Activities
+\input{./tex/part4.tex}
+\input{./tex/biology-activities.tex}
+\input{./tex/chemistry-activities.tex}
+\input{./tex/physics-activities.tex}
+
+\end{document}
