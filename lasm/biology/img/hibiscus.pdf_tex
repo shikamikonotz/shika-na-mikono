@@ -36,24 +36,24 @@
   }
   \providecommand\rotatebox[2]{#2}
   \ifx\svgwidth\undefined
-    \setlength{\unitlength}{1106.91884766pt}
+    \setlength{\unitlength}{1219.32480469pt}
   \else
     \setlength{\unitlength}{\svgwidth}
   \fi
   \global\let\svgwidth\undefined
   \makeatother
-  \begin{picture}(1,1.14169479)%
+  \begin{picture}(1,1.03250871)%
     \put(0,0){\includegraphics[width=\unitlength]{hibiscus.pdf}}%
-    \put(0.32204225,1.01822717){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Anther}}}%
-    \put(0.3705845,1.08135276){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Stigma}}}%
-    \put(0.29361111,0.95008423){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Filament}}}%
-    \put(0.71830388,0.87161675){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Pollen~Tube}}}%
-    \put(0.92892716,0.73946096){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Style}}}%
-    \put(0.86491417,0.57839608){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Petal}}}%
-    \put(0.7121091,0.32647416){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Sepal}}}%
-    \put(0.65842078,0.13237029){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Episepal}}}%
-    \put(0.68526498,0.22322743){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ovule}}}%
-    \put(0.58821305,0.04151315){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Receptacle}}}%
-    \put(0.00082181,1.09455902){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Stamen}}}%
+    \put(0.35085962,0.92435981){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Anther}}}%
+    \put(0.3949269,0.98166604){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Stigma}}}%
+    \put(0.32504946,0.86249877){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Filament}}}%
+    \put(0.71715207,0.78339176){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Pollen~Tube}}}%
+    \put(0.90967081,0.67129223){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Style}}}%
+    \put(0.84368578,0.52507545){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Petal}}}%
+    \put(0.71808937,0.29506527){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Sepal}}}%
+    \put(0.66935042,0.12016746){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Episepal}}}%
+    \put(0.69240773,0.20264876){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ovule}}}%
+    \put(0.60299053,0.03768617){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Receptacle}}}%
+    \put(-0.00242193,0.98315724){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Stamen}}}%
   \end{picture}%
 \endgroup

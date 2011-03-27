@@ -36,16 +36,16 @@
   }
   \providecommand\rotatebox[2]{#2}
   \ifx\svgwidth\undefined
-    \setlength{\unitlength}{1559.55136719pt}
+    \setlength{\unitlength}{1629.00449219pt}
   \else
     \setlength{\unitlength}{\svgwidth}
   \fi
   \global\let\svgwidth\undefined
   \makeatother
-  \begin{picture}(1,0.32812825)%
+  \begin{picture}(1,0.33192923)%
     \put(0,0){\includegraphics[width=\unitlength]{geotropism.pdf}}%
-    \put(0.89287785,0.09321939){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Petri~Dish}}}%
-    \put(-0.00115217,0.00674765){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Cotton~Wool}}}%
-    \put(0.40428631,0.00029052){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Bean~Seeds}}}%
+    \put(0.85642305,0.1040892){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Petri~Dish}}}%
+    \put(0.08933946,0.00853567){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Cotton~Wool}}}%
+    \put(0.45314425,0.0003894){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Bean~Seeds}}}%
   \end{picture}%
 \endgroup

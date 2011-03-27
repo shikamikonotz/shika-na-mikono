@@ -36,20 +36,20 @@
   }
   \providecommand\rotatebox[2]{#2}
   \ifx\svgwidth\undefined
-    \setlength{\unitlength}{1402.69384766pt}
+    \setlength{\unitlength}{1420.29384766pt}
   \else
     \setlength{\unitlength}{\svgwidth}
   \fi
   \global\let\svgwidth\undefined
   \makeatother
-  \begin{picture}(1,0.35865078)%
+  \begin{picture}(1,0.36096562)%
     \put(0,0){\includegraphics[width=\unitlength]{hydrotropism.pdf}}%
-    \put(0.76217638,0.15552095){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Take-away Container}}}%
-    \put(0.7722355,0.06498888){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Dry~Sawdust}}}%
-    \put(0.1476623,0.12462511){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Wet Sawdust}}}%
-    \put(0.06881529,0.26186028){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Maize Seedling}}}%
-    \put(0.77151701,0.26617132){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Maize Seedling}}}%
-    \put(0.53009802,0.00032306){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Perforated~Base}}}%
-    \put(0.51491623,0.3417191){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Porous~Cup}}}%
+    \put(0.76512344,0.14120196){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Take-away Container}}}%
+    \put(0.76604569,0.07094272){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Dry~Sawdust}}}%
+    \put(0.1458325,0.12533383){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Wet Sawdust}}}%
+    \put(0.23126722,0.25974188){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Maize Seedling}}}%
+    \put(0.76533611,0.26963214){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Maize Seedling}}}%
+    \put(0.52803528,0.00031906){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Perforated~Base}}}%
+    \put(0.51191507,0.34424375){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Porous~Cup}}}%
   \end{picture}%
 \endgroup

@@ -44,13 +44,13 @@
   \makeatother
   \begin{picture}(1,0.52654302)%
     \put(0,0){\includegraphics[width=\unitlength]{grasshopper.pdf}}%
-    \put(0.00286325,0.40040298){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Antennae}}}%
-    \put(0.08394815,0.25462839){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Compound Eye}}}%
+    \put(0.11087925,0.39703672){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Antennae}}}%
+    \put(0.20383589,0.24340754){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Compound Eye}}}%
     \put(0.31468575,0.47377289){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Head}}}%
     \put(0.42280995,0.43033019){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Thorax}}}%
     \put(0.74525177,0.50949257){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Hind~Limb}}}%
     \put(0.91226505,0.4602574){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Wings}}}%
-    \put(0.64678149,0.10795704){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Abdomen}}}%
-    \put(0.78097134,0.08664969){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Spiracles}}}%
+    \put(0.64004898,0.10907913){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Abdomen}}}%
+    \put(0.81063194,0.05436949){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Spiracles}}}%
   \end{picture}%
 \endgroup
