@@ -1,0 +1,59 @@
+%% Creator: Inkscape inkscape 0.48.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'hibiscus.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{1219.32480469pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,1.03250871)%
+    \put(0,0){\includegraphics[width=\unitlength]{hibiscus.pdf}}%
+    \put(0.35085962,0.92435981){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Anther}}}%
+    \put(0.3949269,0.98166604){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Stigma}}}%
+    \put(0.32504946,0.86249877){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Filament}}}%
+    \put(0.71715207,0.78339176){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Pollen~Tube}}}%
+    \put(0.90967081,0.67129223){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Style}}}%
+    \put(0.84368578,0.52507545){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Petal}}}%
+    \put(0.71808937,0.29506527){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Sepal}}}%
+    \put(0.66935042,0.12016746){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Episepal}}}%
+    \put(0.69240773,0.20264876){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ovule}}}%
+    \put(0.60299053,0.03768617){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Receptacle}}}%
+    \put(-0.00242193,0.98315724){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Stamen}}}%
+  \end{picture}%
+\endgroup

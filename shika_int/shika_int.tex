@@ -1,0 +1,110 @@
+% SHIKA NA MIKONO
+
+% This code is published with the GNU General Public License v2.
+
+% The remaining comments explain the code.
+% -------------------------------------------
+
+% This file - shika_int.tex - is the backbone file for the manual.
+% It's job is to set the global parameters and order the chapters.
+% Each chapter lives in a different file (all in the tex folder)
+% This keeps everything more organized.
+
+% The code begins...
+\ifx\pdfoutput\undefined
+	% using latex
+	\documentclass[10pt,a4paper]{report}
+	\usepackage[dvips]{graphicx}
+\else
+	% using pdflatex
+	\documentclass[pdftex,10pt,a4paper]{report}
+	\usepackage[pdftex]{graphicx}
+	\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+	\usepackage{hyperref}
+	\hypersetup{
+  		colorlinks,%
+  		linkcolor=blue,%
+  		urlcolor=red
+	}
+\fi
+
+% We want a variety of style packages.
+% We have them in a separate file - shika.sty - to keep this file tidy.
+% This command calls all of them at once.
+\usepackage{shika}
+
+% Now the document can begin:
+\begin{document}
+
+% The input command inserts the content of another file into this master document.
+% Here it calls for the title page, title.tex
+\input{./tex/title.tex}
+
+% To make page numbers consistent w/ the numbering in the PDF viewer.
+% (e.g. page 35 is actually page 35 in the .pdf)
+\setcounter{page}{2} 
+
+% Some front matter...
+\input{./tex/about-this-book.tex}
+\input{./tex/teaching-philosophy.tex}
+
+% Now a table of contents:
+\tableofcontents
+
+% ...but we do not want a page number to appear on the table of contents
+\thispagestyle{empty}
+
+% The rest of the book follows, in four parts
+
+% Part 1 - Lab Development
+\input{./tex/part1.tex} % This is a page dedicated to annoucing Part 1
+\input{./tex/starting-school-labs.tex}
+\input{./tex/technical-lab-needs.tex}
+\input{./tex/sources-of-equipment.tex}
+\input{./tex/sources-of-chemicals.tex}
+\input{./tex/improving-existing-labs.tex}
+\input{./tex/testing-voltmeters.tex}
+\input{./tex/burette-repair.tex}
+\input{./tex/identifying-unknown-chemicals.tex}
+\input{./tex/qualitative-analysis.tex}
+
+% Part 2 - Lab Management
+\input{./tex/part2.tex}
+\input{./tex/laboratory-safety.tex}
+\input{./tex/dangerous-chemicals.tex}
+\input{./tex/dangerous-techniques.tex}
+\input{./tex/lab-classroom-management.tex}
+\input{./tex/routine-upkeep.tex}
+\input{./tex/waste-disposal.tex}
+\input{./tex/recycling-silver-nitrate.tex}
+\input{./tex/recycling-organic-waste.tex}
+\input{./tex/industrial-ecology.tex}
+
+% Part 3 - Lab Techniques
+\input{./tex/part3.tex}
+\input{./tex/using-a-beam-balance.tex}
+\input{./tex/using-a-plastic-syringe.tex}
+\input{./tex/measures-of-concentration.tex}
+\input{./tex/calculating-bottle-molarity.tex}
+\input{./tex/preparation-of-solutions.tex}
+\input{./tex/volumetric-analysis-theory.tex}
+\input{./tex/indicators.tex}
+\input{./tex/volumetric-analysis-technique.tex}
+\input{./tex/volumetric-analysis-without-burettes.tex}
+\input{./tex/relative-standardization.tex}
+\input{./tex/preparation-of-solutions-without-balance.tex}
+\input{./tex/substituting-chemicals.tex}
+\input{./tex/preservation-of-specimens.tex}
+\input{./tex/dissection.tex}
+\input{./tex/culture-media.tex}
+\input{./tex/using-a-microscope.tex}
+\input{./tex/low-power-microscopy.tex}
+
+% Part 4 - Hands-On Activities
+\input{./tex/part4.tex}
+\input{./tex/biology-activities.tex}
+\input{./tex/chemistry-activities.tex}
+\input{./tex/physics-activities.tex}
+
+% That's it!
+\end{document}

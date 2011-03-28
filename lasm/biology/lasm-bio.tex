@@ -1,0 +1,36 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage{lasm-bio}
+
+\graphicspath{{img/}}
+\author{Ministry of Education and Vocational Training}
+\title{Using Locally Available Science Materials in Biology Teaching Activities}
+
+\begin{document}
+
+\input{./tex/title.tex}
+\input{./tex/preface.tex}
+\input{./tex/background.tex}
+
+\tableofcontents
+
+% Chapters are split into separate files.
+\input{./tex/laboratory-equipment.tex}
+\input{./tex/sources-of-chemicals.tex}
+\input{./tex/making-biology-solutions.tex}
+\input{./tex/collecting-biology-specimens.tex}
+\input{./tex/biology-activities_specimens.tex}
+
+% Activities are split by section.
+\chapter{Biology Activities}
+The following activities are demonstrations and practicals that can be performed by both the teachers and the students. They are arranged by topic in order of the syllabus.
+\input{./tex/biology-activities_intro.tex}
+\input{./tex/biology-activities_cells.tex}
+\input{./tex/biology-activities_nutrition.tex}
+\input{./tex/biology-activities_organisms.tex}
+\input{./tex/biology-activities_transport.tex}
+\input{./tex/biology-activities_gaseous.tex}
+\input{./tex/biology-activities_movement.tex}
+\input{./tex/biology-activities_coordination.tex}
+\input{./tex/biology-activities_growth.tex}
+
+\end{document}
