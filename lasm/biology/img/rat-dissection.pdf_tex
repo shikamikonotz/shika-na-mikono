@@ -1,0 +1,56 @@
+%% Creator: Inkscape inkscape 0.48.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'rat-dissection.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{1312.34589844pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.84859234)%
+    \put(0,0){\includegraphics[width=\unitlength]{rat-dissection.pdf}}%
+    \put(0.20810778,0.67924853){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Injection~Needle}}}%
+    \put(0.30088936,0.76764045){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Acaccia~Thorn}}}%
+    \put(0.75149637,0.59835927){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Fore~limb}}}%
+    \put(0.83818101,0.39573905){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Skin}}}%
+    \put(0.79927404,0.51959317){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Internal~Organs}}}%
+    \put(0.29329152,0.00571885){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Hind~Limb}}}%
+    \put(0.55326666,0.0003453){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Intestine}}}%
+    \put(0.23945551,0.44953584){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Body Cavity Wall}}}%
+  \end{picture}%
+\endgroup
