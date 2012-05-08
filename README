@@ -1,0 +1,20 @@
+WELCOME TO THE SHIKA PROJECT
+
+Hi there! Thanks for your interest in Shika!
+
+It appears you're trying to access the source files for our Shika na Mikono manual. Well, they aren't here anymore. That's because we split what was formerly in this repository into individual repositories for ease of use. Basically, this repository was getting really big and kind of hard to download on a slow connection. Now, if you only want the Tanzanian Edition of the Shika manual, you don't have to download the LASM manuals as well (which are quite large in comparison). From now on, use the URLs below to access the specific document you are looking for.
+
+Shika na Mikono (Tanzanian Edition):
+https://code.google.com/p/shika-na-mikono.shika-tz
+
+Shika na Mikono (International Edition):
+https://code.google.com/p/shika-na-mikono.shika-int
+
+LASM Biology:
+https://code.google.com/p/shika-na-mikono.lasm-bio
+
+LASM Chemistry:
+https://code.google.com/p/shika-na-mikono.lasm-chem
+
+LASM Physics:
+https://code.google.com/p/shika-na-mikono.lasm-phys
